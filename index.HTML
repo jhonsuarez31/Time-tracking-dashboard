@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/images/favicon-32x32.png" sizes="32x32" rel="icon">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Time tracking dashboard</title>
+</head>
+
+<body >
+    <main class="container">
+        <div class="profile-card">
+            <div class="section-profile">
+                <div class="img-container"><img src="/images/image-jeremy.png" alt="profile-user" class="image-profile">
+                </div>
+                <p>Report for </p>
+                <h1>Jeremy Roberson</h1>
+
+            </div>
+            <ul>
+                <li><a  href="#" class="btn" onclick=" cargarDatosJson()" id="charge-daily">Daily</a></li>
+                <li><a href="#" class="btn"onclick=" cargarDatosJson()" id="charge-weekly">Weekly</a></li>
+                <li><a href="#" class="btn"onclick=" cargarDatosJson()" id="charge-monthy">Monthy</a></li>
+
+            </ul>
+
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/icon-work.svg" class="icon-image" alt="icon-image-work">
+                <div class="Text-card">
+                    <ul>
+                        <li>Work</li>
+                        <li><img src="images/icon-ellipsis.svg" id="icon-ellipsis" alt="icon-image-selec"</li>
+                    </ul>                    
+                    <p class="pes">32 hrs</p>
+                    <h5 class="fot">Last Week</h5>
+                </div>
+
+            </div>
+            <div class="card" style="background-color: hsl(195, 74%, 62%)">
+                <img src="/images/icon-play.svg" class="icon-image" alt="icon-image-play">
+                <div class="Text-card">
+                    <ul>
+                        <li>Play</li>
+                        <li><img src="images/icon-ellipsis.svg" id="icon-ellipsis"alt="icon-image-selec"</li>
+                    </ul>                    
+                    <p class="pes">32 hrs</p>
+                    <h5 class="fot">Last Week</h5>
+                </div>
+
+            </div>
+            <div class="card" style="background-color:  hsl(348, 100%, 68%)">
+                <img src="/images/icon-study.svg" class="icon-image" alt="icon-image-study">
+                <div class="Text-card">
+                    <ul>
+                        <li>Study</li>
+                        <li><img src="images/icon-ellipsis.svg" id="icon-ellipsis"alt="icon-image-selec"</li>
+                    </ul>                    
+                    <p class="pes">32 hrs</p>
+                    <h5 class="fot">Last Week</h5>
+                </div>
+
+            </div>
+            <div class="card" style="background-color: hsl(145, 58%, 55%)">
+                <img src="/images/icon-exercise.svg" class="icon-image" alt="icon-image-Excersie">
+                <div class="Text-card">
+                    <ul>
+                        <li>Excercise</li>
+                        <li><img src="images/icon-ellipsis.svg" id="icon-ellipsis"alt="icon-image-selec"</li>
+                    </ul>                    
+                    <p class="pes">32 hrs</p>
+                    <h5 class="fot">Last Week</h5>
+                </div>
+
+            </div>
+            <div class="card" style="background-color:hsl(264, 64%, 52%)">
+                <img src="/images/icon-social.svg" class="icon-image" alt="icon-image-social">
+                <div class="Text-card">
+                    <ul>
+                        <li>Social</li>
+                        <li><img src="images/icon-ellipsis.svg" id="icon-ellipsis"alt="icon-image-selec"</li>
+                    </ul>                    
+                    <p class="pes">32 hrs</p>
+                    <h5 class="fot">Last Week</h5>
+                </div>
+
+            </div>
+            <div class="card" style="background-color:hsl(43, 84%, 65%)">
+                <img src="/images/icon-self-care.svg" class="icon-image"alt="icon-image-Self" >
+                <div class="Text-card">
+                    <ul>
+                        <li>Self Care</li>
+                        <li><img src="images/icon-ellipsis.svg" id="icon-ellipsis"alt="icon-image-selec"</li>
+                    </ul>                    
+                    <p class="pes">32 hrs</p>
+                    <h5 class="fot">Last Week</h5>
+                </div>
+
+            </div>
+        </div>
+    
+
+    </main>
+    <script src="/js/app.js"></script>    
+</body>
+
+</html>
