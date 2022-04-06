@@ -114,7 +114,7 @@ li {
   color: hsl(235, 45%, 61%);
 }
 
-.icon-image {
+icon-image {
   width: 64px;
   height: 64px;
   position: absolute;
@@ -161,7 +161,7 @@ a:focus{
     flex-direction: column;
     position: relative;
     align-items: flex-end;
-    text-align: end;
+
     
     
             
@@ -169,16 +169,15 @@ a:focus{
   
 
 .img-container{
-  width:5em;
-  height: 5em;
+  width:3em;
+  height: 3em;
   position: absolute;
   left: 10px;
   
 }
 
   .profile-card ul {
-    padding: 15px;
-    display: flex;
+  display: flex;
     justify-content:space-between;
 
   }
@@ -198,7 +197,7 @@ a:focus{
 
   .section-profile h1 {
     font-weight: normal;
-    font-size: 30px;
+    font-size: 24px;
     
   }
 
