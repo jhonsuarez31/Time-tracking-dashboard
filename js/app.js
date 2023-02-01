@@ -5,12 +5,9 @@ document.querySelector(".btn");
 let hour = document.getElementsByClassName("pes");
 let last = document.getElementsByClassName("fot");
 
-console.log("Hola");
-
 const cargarDatosJson = async () => {
   const respuesta = await fetch("data.json");
   const datos = await respuesta.json();
- 
   console.log(daily.value);
 
   document.getElementById('charge-daily').addEventListener("click",function(){
